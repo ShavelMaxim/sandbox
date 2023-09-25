@@ -1,0 +1,15 @@
+/* .rating-list {
+  display: flex;
+  gap: 3px;
+}
+
+.rating-list__item {
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../assets/images/clients/card-review/rating-list/star-rating.svg);
+  background-repeat: no-repeat;
+}
+
+.rating-list__item_active {
+  background-image: url(../../../assets/images/clients/card-review/rating-list/star-rating-active.svg);
+} */

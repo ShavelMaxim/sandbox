@@ -1,0 +1,16 @@
+.jokes {
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+.jokes_header {
+   margin-bottom: 40px;
+}
+
+.jokes__list {
+  gap: 20px;
+}
+
+.jokes__description {
+  text-align: center;
+}

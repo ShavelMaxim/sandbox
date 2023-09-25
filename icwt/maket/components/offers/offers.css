@@ -1,0 +1,39 @@
+/* @import url("./service-cards/service-cards.css");
+
+.offers__title {
+  margin-bottom: 40px;
+}
+
+.offers__description {
+  margin-bottom: 40px;
+}
+
+.offers__service-cards {
+  row-gap: 40px;
+}
+
+.service-cards__container {
+  height: 100%;
+}
+
+.offers__card-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 1279px) {
+  .offers__title {
+    margin-bottom: 20px;
+  }
+
+  .offers__service-cards {
+    row-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .offers__card-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+} */

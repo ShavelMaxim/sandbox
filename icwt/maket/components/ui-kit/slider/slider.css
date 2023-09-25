@@ -1,0 +1,79 @@
+/* .slider {
+  width: 100%;
+}
+
+.slider__card {
+  max-width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider__buttons {
+  width: 120px;
+  height: 66px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--color-grey);
+  border-radius: 50px;
+}
+
+.slider__button {
+  padding-left: 0;
+  padding-right: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative; сброс стилей кнопки swiper.js
+  top: 0; сброс стилей кнопки swiper.js
+  left: 0; сброс стилей кнопки swiper.js
+  margin-top: 0; сброс стилей кнопки swiper.js
+  border: none;
+  outline: none;
+  background-color: transparent;
+  transition: background-image ease-in .2s;
+}
+.slider__button:hover {
+  background-image: var(--primary-color-gradient);
+}
+
+.slider__button:after {
+  content: ''; сброс стилей кнопки swiper.js
+} */
+
+/* .slider__button-left, .slider__button-right {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider__button-left {
+  background-image: url("../../../assets/images/clients/slider/arrow-left.svg");
+}
+
+.slider__button-left:hover {
+  background-image: url("../../../assets/images/clients/slider/arrow-left-active.svg");
+}
+
+.slider__button-right {
+  background-image: url("../../../assets/images/clients/slider/arrow-right.svg");
+}
+
+.slider__button-right:hover {
+  background-image: url("../../../assets/images/clients/slider/arrow-right-active.svg");
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  opacity: .3;
+}
+
+@media screen and (max-width: 1279px) {
+  .slider__card {
+    max-width: 290px;
+  }
+} */

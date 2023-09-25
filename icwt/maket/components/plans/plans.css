@@ -1,0 +1,33 @@
+/* @import url('./tariff-card/tariff-card.css');
+
+.plans__title {
+  margin-bottom: 40px;
+}
+
+.plans__description {
+  margin-bottom: 40px;
+}
+
+.plans__tariff-card {
+  max-width: 380px;
+}
+
+@media screen and (max-width: 1279px) {
+  .plans__title {
+    margin-bottom: 20px;
+  }
+
+  .plans__tariff-card {
+    max-width: 164px;
+  }
+
+  .plans__tariff-card_primary-color {
+    max-width: 204px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .plans__tariff-card {
+    max-width: 100%;
+  }
+} */

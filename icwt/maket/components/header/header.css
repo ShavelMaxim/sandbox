@@ -1,0 +1,63 @@
+@import url("../ui-kit/popup/popup.css");
+
+
+.header{
+  margin-bottom: 60px;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__icon-favourite {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  display: block;
+  margin-right: 20px;
+}
+
+.header__anchor {
+font-family: var(--f-family-roboto-medium);
+font-style: normal;
+font-weight: var(--f-weight-normal);
+font-size: var( --f-size-24);
+line-height: var(  --f-height-28);
+}
+
+
+/* .header__logo {
+  width: 118px;
+}
+
+.header__information-list {
+  max-width: 504px;
+}
+
+.header__button {
+  min-width: 98px;
+  height: 48px;
+}
+
+.header__button-burger {
+  display: none;
+}
+
+@media screen and (max-width: 1219px) {
+  .header__information-list,
+  .header__button {
+    display: none;
+  }
+
+  .header__button-burger {
+    width: 25px;
+    height: 16px;
+    background-image: url("../assets/images/header/button-burger.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    display: block;
+  }
+} */

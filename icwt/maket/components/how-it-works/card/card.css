@@ -1,0 +1,144 @@
+/* .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: 570px;
+  padding-bottom: 64px;
+  border-radius: 25px;
+}
+
+.card__img {
+  width: 100%;
+  min-height: 370px;
+}
+
+.card__content {
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.card__title,
+.card__description {
+  color: var(--color-blue);
+  text-align: center;
+}
+
+.card__title {
+  margin-bottom: 26px;
+  font-family: var(--f-family-gilroy-extrabold);
+  font-size: var(--f-size-34);
+  line-height: var(--f-height-40);
+}
+
+.card__description {
+  font-weight: var(--f-weight-normal);
+  font-size: var(--f-size-18);
+  line-height: var(--f-height-22);
+}
+
+.card_type_intelligence,
+.card_type_marketing,
+.card_type_intelligence .card__img,
+.card_type_marketing .card__img {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card_type_intelligence {
+  background-image: url("../../../assets/images/how-it-works/intelligence-bg-bigger.png");
+}
+
+.card_type_marketing {
+  background-image: url("../../../assets/images/how-it-works/marketing-bg-bigger.png");
+}
+
+.card_type_intelligence .card__img {
+  background-image: url("../../../assets/images/how-it-works/intelligence-bigger.png");
+}
+
+.card_type_marketing .card__img {
+  background-image: url("../../../assets/images/how-it-works/marketing-bigger.png");
+}
+
+
+@media screen and (max-width: 1919px) {
+  .card__content {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .card_type_intelligence {
+    background-image: url("../../../assets/images/how-it-works/intelligence-bg.png");
+  }
+
+  .card_type_marketing {
+    background-image: url("../../../assets/images/how-it-works/marketing-bg.png");
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .card {
+    min-height: 240px;
+    padding-bottom: 0;
+  }
+
+  .card__content {
+    padding-left: 54px;
+    padding-right: 54px;
+  }
+
+  .card__img {
+    margin-bottom: 20px;
+    width: 314px;
+    height: 80px;
+    min-height: auto;
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.05);
+  }
+
+  .card__title,
+  .card__description {
+    position: static;
+    transform: none;
+    text-align: center;
+  }
+
+  .card__title {
+    margin-bottom: 20px;
+    font-size: var(--f-size-24);
+    line-height: var(--f-height-30);
+  }
+
+  .card_type_intelligence,
+  .card_type_marketing {
+    background-image: none;
+  }
+
+  .card_type_intelligence .card__img {
+    background-image: url("../../../assets/images/how-it-works/intelligence-tablet.png");
+  }
+
+  .card_type_marketing .card__img {
+    background-image: url("../../../assets/images/how-it-works/marketing-tablet.png");
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card__content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .card__img {
+    width: 290px;
+  }
+
+  .card_type_intelligence .card__img {
+    background-image: url("../../../assets/images/how-it-works/intelligence-mobile.png");
+  }
+
+  .card_type_marketing .card__img {
+    background-image: url("../../../assets/images/how-it-works/marketing-mobile.png");
+  }
+} */

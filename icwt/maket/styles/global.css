@@ -1,0 +1,33 @@
+@import url("./fonts.css");
+@import url("./reset.css");
+@import url("./bootstrap-grid.css");
+@import url("./plugins/swiper/swiper-bundle.min.css");
+@import url("../components/ui-kit/ui-kit.css");
+@import url("./blocks.css");
+@import url("./main.css");
+
+:root {
+  /* colors */
+  --color-red: #B11B1B;
+  --color-dark-red: #811111;
+  --color-brown: #654040;
+  --color-black: #101010;
+  --color-white: #F9F9F9;
+
+  --color-opacity-dark: rgba(129, 17, 17, 0.7);
+  --color-opacity-light: rgba(177, 27, 27, 0.05);
+
+  /* font family */
+  --rubik: 400 60px/72px 'RubikWetPaint';
+  --roboto: 400 24px/28px 'Roboto-Medium';
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}

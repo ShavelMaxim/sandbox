@@ -1,0 +1,66 @@
+.card {
+  width: 570px;
+  height: 300px;
+  border: 2px solid var(--color-red);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 44px;
+  row-gap: 20px;
+  background: var(--color-opacity-light);
+  border-radius: 50px;
+}
+
+/* .card-review {
+  padding: 30px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  box-shadow: 0 42px 42px var(--color-light-black);
+  border-radius: 10px;
+  color: var(--color-blue);
+}
+
+.card-review__description {
+  width: 100%;
+  max-width: 330px;
+  font-weight: var(--f-weight-normal);
+  font-size: var(--f-size-16);
+  line-height: var(--f-height-30);
+  text-align: center;
+}
+
+.card-review__user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 9px;
+  color: var(--color-blue);
+}
+
+.card-review__user-name {
+  font-weight: var(--f-weight-semibold);
+  font-size: var(--f-size-14);
+  line-height: var(--f-height-17);
+}
+
+.card-review__user-info {
+  font-weight: var(--f-weight-normal);
+  font-size: var(--f-size-12);
+  line-height: var(--f-height-12);
+}
+
+@media screen and (max-width: 767px) {
+  .card-review {
+    padding-left: 35px;
+    padding-right: 35px;
+    row-gap: 20px;
+  }
+
+  .card-review__user {
+    row-gap: 20px;
+  }
+} */

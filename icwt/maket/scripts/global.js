@@ -1,0 +1,11 @@
+import('../components/ui-kit/slider/slider.js');
+import('../components/clients/clients.js');
+import('../components/footer/footer.js');
+import('../components/form/form.js');
+import('../components/header/header.js');
+import('../components/hero/hero.js');
+import('../components/how-it-works/how-it-works.js');
+import('../components/statistics/statistics.js');
+import('../components/offers/offers.js');
+import('../components/partners/partners.js');
+import('../components/plans/plans.js');

@@ -1,0 +1,7 @@
+@import url(./navigation/navigation.css);
+@import url('./title/title.css');
+@import url('./description/description.css');
+@import url('./button/button.css');
+@import url('./rating-list/rating-list.css');
+@import url('./slider/slider.css');
+@import url('./card-review/card-review.css');

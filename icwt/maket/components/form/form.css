@@ -1,0 +1,28 @@
+/* @import url("form-email/form-email.css");
+
+.form {
+  padding-bottom: 80px;
+}
+
+.form__title {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+  .form {
+    padding-bottom: 40px;
+  }
+
+  .form__title {
+    max-width: 276px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form__title {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+} */

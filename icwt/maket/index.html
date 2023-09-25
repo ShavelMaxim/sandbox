@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name='viewport' content='width=device-width initial-scale=1, maximum-scale=1, minimal-ui'>
+  <link rel="stylesheet" href="./styles/global.css">
+  <title>Brands</title>
+</head>
+
+<body>
+  <div class="layout">
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-4">
+            <div class="row justify-content-between">
+                <a class="col-2">Главная</a>
+                <div class="col-2 header__menu">
+                  <div><img class="header__icon-favourite" src="./assets/images/header/heart.svg" alt="heart"></div>
+                    <a>Избранное</a>
+                </div>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="row justify-content-between">
+         
+            <img class="col-5" src="./assets/images/hero/heroIcon.png" alt="heroIcon">
+          
+          <div class="col-6">
+            <div class="hero__title title">CHUCK NORRIS challenge</div>
+            <div class="description description_dark">Это испытание, которое вам предстоит пройти, если вы хотите вступить в наши ряды.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps">
+      <div class="container">
+        <div class="row justify-content-between align-items-start">
+          <div class="col-7">
+            <h1 class="title steps__title">Что тебе нужно сделать?</h1>
+            <ul>
+              <li class="steps__step">
+                <p class="steps__paragraph title">1.</p>
+                 <span class="steps__description description description_dark">
+                  У Нас есть API, которое умеет получать шутки Чака Нориса - https://api.chucknorris.io/
+                </span>
+            </li> 
+            <li class="steps__step">
+              <p class="steps__paragraph title">2.</p>
+              <span class="steps__description description description_dark">
+                Тебе нужно сверстать этот макет, в котором по нажатию кнопки, пользователь будет получать ОДНУ шутку и отображать её на экране
+              </span>
+            </li>
+            <li class="steps__step">
+              <p class="steps__paragraph title">3.</p>
+              <span class="steps__description description description_dark">
+                Шутка должна появляться каждый ТРИ секунды и переставать отображать шутки, если на неё нажать еще раз.
+              </span>
+            </li>
+            </ul>
+          </div>
+          <img class="col-5" src="./assets/images/steps/icon1.png"></img>
+        </div>
+        <div class="row  justify-content-between align-items-start">
+          <img class="col-5" src="./assets/images/steps/icon2.png"></img>
+          <div class="col-6">
+            <ul>
+              <li class="steps__step">
+                <p class="steps__paragraph title">4.</p>
+                   <span class="steps__description description description_dark">
+                    А еще нужно сделать так, чтобы при нажатии на сердечко шутка попадла в “избранное”. 
+                    А если нажать еще раз она ее удалит из листа и при перезагрузке страницы они должны сохраняться. (используй localStorage)
+                  </span>
+              </li> 
+              <li class="steps__step">
+                <p class="steps__paragraph title">5.</p>
+                <span class="steps__description description description_dark">
+                  В избранном должна быть возможность очистить весь лист добавленных шуток, а также отдельные шутки.
+                </span>
+              </li>
+              <li class="steps__step">
+                <p class="steps__paragraph title">6.</p>
+                <span class="steps__description description description_dark">
+                  Любимых шуток может отображаться максимум 10, при добавление новой шутки, самая первая удаляется, а новая попадает в конец листа.
+                </span>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="jokes">
+      <div class="container">
+        <div class="jokes_header row">
+          <div class="col-6">
+            <div class="row justify-content-between">
+              <h1 class="col-3 title">шутки</h1>
+              <button class="col-3 button">Хочу шутку</button>
+            </div>
+          </div>
+        </div>
+        <ul class="row jokes__list">
+          <li class="col-6 card">
+            <img src="./assets/images/header/heart.svg" alt="heart">
+            <p class="jokes__description description description_dark">
+              Chuck Norris was featured in an episode of Deadliest Warrior, winning all 1000 simulated battles. His opponent was the USS Nimitz.
+            </p>
+          </li>
+          <li class="col-6 card">
+            <img src="./assets/images/header/heart.svg" alt="heart">
+            <p class="jokes__description description description_dark">
+              Chuck Norris used a hatchet to remove a fly from his friend's forehead.
+            </p>
+          </li>
+          <li class="col-6 card">
+            <img src="./assets/images/header/heart.svg" alt="heart">
+            <p class="jokes__description description description_dark">
+              Chuck Norris can levitate birds.
+            </p>
+          </li>
+          <li class="col-6 card">
+            <img src="./assets/images/header/heart.svg" alt="heart">
+            <p class="jokes__description description description_dark">
+              I dont care how you, anyone you know, or anyone in general, Chuck Norris is the reason.
+            </p>
+          </li>
+          <li class="col-6 card">
+            <img src="./assets/images/header/heart.svg" alt="heart">
+            <p class="jokes__description description description_dark">
+              Chuck Norris was recently on safari in Africa when a savage lion mauling occurred. The lion died an hour later and never should have been stupid enough to irritate Chuck.
+            </p>
+          </li>
+          <li class="col-6 card">
+            <p class="jokes__description description description_dark">
+              If Chuck Norris only had one leg, it would be called Hopper: Texas Ranger.
+            </p>
+          </li>
+          <li class="col-6 card">
+            <img src="./assets/images/header/heart.svg" alt="heart">
+            <p class="jokes__description description description_dark">
+              uck Norris finished every Call of Duty games in less than 15 minutes..........without shooting a single bullet.
+            </p>
+          </li>
+          <li class="col-6 card">
+            <img src="./assets/images/header/heart.svg" alt="heart">
+            <p class="jokes__description description description_dark">
+              The best part of waking up is not Foldgers in your cup. It's knowing that Chuck Norris didn't kill you in your sleep.
+            </p>
+          </li>
+          <li class="col-6 card">
+            <img src="./assets/images/header/heart.svg" alt="heart">
+            <p class="jokes__description description description_dark">
+              Chuck Norris' parents WERE the unstoppable force and the immovable object.
+            </p>
+          </li>
+          <li class="col-6 card">
+            <img src="./assets/images/header/heart.svg" alt="heart">
+            <p class="jokes__description description description_dark">
+              Spontaneous combustion is just one of the highly contagious diseases Chuck Norris transmits daily.
+            </p>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-7 footer__content">
+            <h1 class="title">THIS CHALLENGE WAS CREATED BY ICWT</h1>
+            <p class="description description_white">You will definitely deal with it</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <header class="header">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <img class="header__logo" src="./assets/images/header/logo.svg" alt="brands">
+          <ul class="header__information-list navigation navigation_size_medium navigation_color_gradient col-6">
+            <li class="navigation__link">
+              <a href="https://dzen.ru/?yredirect=true">Home</a>
+            </li>
+            <li class="navigation__link">
+              <a href="https://dzen.ru/?yredirect=true">About Us</a>
+            </li>
+            <li class="navigation__link">
+              <a href="https://dzen.ru/?yredirect=true">Services</a>
+            </li>
+            <li class="navigation__link">
+              <a href="https://dzen.ru/?yredirect=true">Contact Us</a>
+            </li>
+          </ul>
+          <div class="col-auto">
+            <button type="button" class="header__button button button_type_primary button_font_medium button_type-text_transparent">
+              <span class="button__text">
+                Login
+              </span>
+            </button>
+            <button type="button" class="header__button-burger js-popup-button-open" data-popup="header-menu"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="main__section">
+        <div class="hero">
+          <div class="hero__container container">
+            <img src="./assets/images/hero/star.png" alt="hero-star" class="hero__star">
+            <div class="row justify-content-between">
+              <div class="hero__information col-xxl-5 col-xl-6 col-md-8 col-12">
+                <h1 class="hero__title title title_size_large title_align_left">Tell a better brand story</h1>
+                <p class="hero__description description description_size_middle description_align_left">Warrant present garrets limited cordial in inquiry to. Supported me sweetness behaviour shameless excellent so arranging.</p>
+                <div class="hero__buttons">
+                  <a href="#" class="hero__button button button_type_primary button_font_medium button_type-text_transparent">
+                    <span class="button__text">
+                      Get Started
+                    </span>
+                  </a>
+                  <a href="#" class="hero__button button button_type_transparent button_text_primary button_font_medium">
+                    <span class="button__text">
+                      Contact Us
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xxl-6 col-xl-6 col-md-4 col-12">
+                <picture>
+                  <source media="(max-width: 1279px)" srcset="./assets/images/hero/hero-tablet.png" type="image/png">
+                  <img class="hero__poster" src="./assets/images/hero/hero-content-no-swadow.png" alt="poster">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <img class="hero__background" src="./assets/images/hero/background.png" alt="bg">
+        </div>
+      </section>
+
+      <section class="main__section">
+        <div class="partners">
+          <div class="partners__content container">
+            <ul class="partners__list row row-cols-1 row-cols-md-12 justify-content-xxl-between justify-content-xl-around justify-content-md-between justify-content-center align-items-center">
+              <li class="partners__item col-auto">
+                <img class="partners__images" src="./assets/images/partners/partner-1.png" alt="Planday">
+              </li>
+              <li class="partners__item col-auto">
+                <img class="partners__images" src="./assets/images/partners/partner-2.png" alt="umbraco">
+              </li>
+              <li class="partners__item col-auto">
+                <img class="partners__images" src="./assets/images/partners/partner-3.png" alt="Pearlfisher">
+              </li>
+              <li class="partners__item col-auto">
+                <img class="partners__images" src="./assets/images/partners/partner-4.png" alt="Breaghtpearl">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    <section class="main__section">
+      <div class="offers">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-11 col-xl-8">
+              <h2 class="offers__title title title_size_middle">What we Offer?</h2>
+              <p class="offers__description description description_size_large">
+                  in virtual space through communication platforms. Durable
+                  relations that extend beyond immediate genealogical ties.
+              </p>
+            </div>
+            <div class="offers__service-cards row row-cols-1 justify-content-between">
+              <div class="offers__card-container col-12 col-md-6 col-xl-4">
+                <div class="offers__service-card service-card">
+                  <img src="./assets/images/offers/community.svg" alt="community.svg" class="service-card__item-icon"/>
+                  <h3 class="service-card__item-title">Community Support</h3>
+                  <p class="service-card__item-description">
+                    Apps keep work and information right at your
+                    fingertips—and Slack keeps it all securely.
+                  </p>
+                </div>
+              </div>
+              <div class="offers__card-container col-12 col-md-6 col-xl-4">
+                <div class="offers__service-card service-card">
+                  <img src="./assets/images/offers/security.svg" alt="security.svg" class="service-card__item-icon"/>
+                  <h3 class="service-card__item-title">Security First</h3>
+                  <p class="service-card__item-description">
+                    Connect the tools you already use to get more from them
+                    every time you work.
+                  </p>
+                </div>
+              </div>
+              <div class="offers__card-container col-12 col-md-6 col-xl-4">
+                <div class="offers__service-card service-card">
+                  <img  src="./assets/images/offers/admin.svg" alt="admin.svg" class="service-card__item-icon"/>
+                  <h3 class="service-card__item-title">24/7 Admin Support</h3>
+                  <p class="service-card__item-description">
+                    ’You can work with apps in channels, where theyre a
+                    seamless part of the conver.
+                  </p>
+                </div>
+              </div>
+              <div class="offers__card-container col-12 col-md-6 col-xl-4">
+                <div class="offers__service-card service-card">
+                  <img src="./assets/images/offers/theme.svg" alt="theme.svg" class="service-card__item-icon"/>
+                  <h3 class="service-card__item-title">100+ Themes</h3>
+                  <p class="service-card__item-description">
+                    Spend less time tracking down the people needed to get
+                    work done.
+                  </p>
+                </div>
+              </div>
+              <div class="offers__card-container col-12 col-md-6 col-xl-4">
+                <div class="offers__service-card service-card">
+                  <img src="./assets/images/offers/integrated.svg" alt="integrated.svg" class="service-card__item-icon"/>
+                  <h3 class="service-card__item-title">Fully Integrated</h3>
+                  <p class="service-card__item-description">
+                    Skip the follow-ups and back-and -forth. Easily
+                    standardize how you collect
+                  </p>
+                </div>
+              </div>
+              <div class="offers__card-container col-12 col-md-6 col-xl-4">
+                <div class="offers__service-card service-card">
+                  <img src="./assets/images/offers/monthly.svg" alt="monthly.svg" class="service-card__item-icon"/>
+                  <h3 class="service-card__item-title">Monthly Update</h3>
+                  <p class="service-card__item-description">
+                    Take control of your work day. In a just a few minutes,
+                    create a customized workflow
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section class="main__section">
+        <div class="how-it-works">
+          <img src="./assets/images/how-it-works/background-left.png" alt="background-left" class="how-it-works__img">
+          <img src="./assets/images/how-it-works/background-right.png" alt="background-right" class="how-it-works__img">
+          <div class="how-it-works__container container">
+            <div class="row justify-content-center">
+              <h2 class="how-it-works__title title title_size_middle col-12">How it Works?</h2>
+              <p class="how-it-works__description description description_size_small col-12 col-md-9 col-xl-5">Resolving neglected sir tolerably but existence conveying for. Day his put off unaffected literature partiality inhabiting.</p>
+            </div>
+            <div class="how-it-works__cards row justify-content-between">
+              <div class="how-it-works__card card card_type_intelligence col-12 col-md-auto">
+                <div class="card__img"></div>
+                <div class="card__content">
+                  <h3 class="card__title">Intelligence</h3>
+                  <p class="card__description description">Marketing intelligence (MI) is the everyday information relevant to a company’s markets</p>
+                </div>
+              </div>
+              <div class="how-it-works__card card card_type_marketing col-12 col-md-auto">
+                <div class="card__img"></div>
+                <div class="card__content">
+                  <h3 class="card__title">Marketing</h3>
+                  <p class="card__description description">Marketing intelligence is necessary when entering a foreign market, determines the intelligence needed.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section">
+        <div class="plans">
+          <div class="plans__container container">
+            <div class="row justify-content-center">
+              <h2 class="plans__title title title_size_middle">Our plans scale with your product</h2>
+            </div>
+            <div class="row justify-content-center">
+              <p class="plans__description description description_size_large">In virtual space through communication platforms.</p>
+            </div>
+            <div class="plans__cards row justify-content-between align-items-start">
+              <div class="plans__tariff-card tariff-card col-12 col-md-4">
+                <h3 class="tariff-card__title">For Starter</h3>
+                <p class="tariff-card__subtitle">$59</p>
+                <ul class="tariff-card__list">
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Feedback Categorization
+                  </li>
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Features prioritization
+                  </li>
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Real-time collaboration
+                  </li>
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Feedback loop notifications
+                  </li>
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Essential dev tools integrations
+                  </li>
+                </ul>
+                <a href="#" class="tariff-card__button button button_type_transparent button_text_primary button_font_medium">
+                  <span class="button__text">
+                    Contact Us
+                  </span>
+                </a>
+              </div>
+
+              <div class="plans__tariff-card plans__tariff-card_primary-color tariff-card tariff-card_primary-color col-12 col-md-4">
+                <h3 class="tariff-card__title">For Teams</h3>
+                <p class="tariff-card__subtitle">$99</p>
+                <ul class="tariff-card__list">
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Feedback Categorization
+                  </li>
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Features prioritization
+                  </li>
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Real-time collaboration
+                  </li>
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Feedback loop notifications
+                  </li>
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Essential dev tools integrations
+                  </li>
+                </ul>
+                <a href="#" class="tariff-card__button button button_type_primary button_font_medium button_type-text_transparent">
+                  <span class="button__text">
+                    Purchase Package
+                  </span>
+                </a>
+              </div>
+
+              <div class="plans__tariff-card tariff-card col-12 col-md-4">
+                <h3 class="tariff-card__title">For Company</h3>
+                <p class="tariff-card__subtitle">Custom</p>
+                <ul class="tariff-card__list">
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Feedback Categorization
+                  </li>
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Feedback loop notifications
+                  </li>
+                  <li class="tariff-card__item">
+                    <div class="tariff-card__flag-container">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.54661 0C3.1426 0 0.380859 2.6875 0.380859 6C0.380859 9.3125 3.1426 12 6.54661 12C9.95061 12 12.7124 9.3125 12.7124 6C12.7124 2.6875 9.95061 0 6.54661 0ZM9.71939 4.55L6.09702 8.0875C5.98141 8.2 5.81442 8.275 5.64743 8.275C5.48044 8.275 5.31346 8.2125 5.19785 8.0875L3.37381 6.3125C3.11691 6.0625 3.11691 5.675 3.37381 5.425C3.63072 5.175 4.02893 5.175 4.28583 5.425L5.64743 6.75L8.82022 3.6625C9.07713 3.4125 9.47533 3.4125 9.73224 3.6625C9.9763 3.9125 9.9763 4.3 9.71939 4.55Z" fill="currentColor"/>
+                      </svg>
+                    </div>
+                    Essential dev tools integrations
+                  </li>
+                </ul>
+                <a href="#" class="tariff-card__button button button_type_transparent button_text_primary button_font_medium">
+                  <span class="button__text">
+                    Contact Us
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section">
+        <div class="clients">
+          <div class="clients__content container">
+            <div class="row justify-content-center">
+              <h2 class="clients__title title title_size_middle col-10">What Our Clients Say About Us</h2>
+            </div>
+            <div class="row justify-content-center">
+              <p class="clients__description description description_size_large">Community development is often linked with community work or community planning, and may involve stakeholders, foundations,</p>
+            </div>
+            <div class="clients__slider-container row">
+              <div class="slider js-slider swiper-h">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="slider__card card-review">
+                      <ul class="rating-list">
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                      </ul>
+                      <p class="card-review__description">Up maids me an ample stood given. Certainty say suffering his him collected intention promotion.</p>
+                      <div class="card-review__user">
+                        <h3 class="card-review__user-name">Chris Evans</h3>
+                        <p class="card-review__user-info">Client from USA</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__card card-review">
+                      <ul class="rating-list">
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                      </ul>
+                      <p class="card-review__description">Up maids me an ample stood given. Certainty say suffering his him collected intention promotion.</p>
+                      <div class="card-review__user">
+                        <h3 class="card-review__user-name">Chris Evans</h3>
+                        <p class="card-review__user-info">Client from USA</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__card card-review">
+                      <ul class="rating-list">
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                      </ul>
+                      <p class="card-review__description">Certainty say suffering his him collected intention promotion. Hill sold ham men made lose case. Views abode law heard jokes too.</p>
+                      <div class="card-review__user">
+                        <h3 class="card-review__user-name">Andrew Chris</h3>
+                        <p class="card-review__user-info">Client from Uganda</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__card card-review">
+                      <ul class="rating-list">
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item "></li>
+                      </ul>
+                      <p class="card-review__description">Up maids me an ample stood given. Certainty say suffering his him collected intention promotion.</p>
+                      <div class="card-review__user">
+                        <h3 class="card-review__user-name">Chris Evans</h3>
+                        <p class="card-review__user-info">Client from USA</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__card card-review">
+                      <ul class="rating-list">
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                        <li class="rating-list__item rating-list__item_active"></li>
+                      </ul>
+                      <p class="card-review__description">Certainty say suffering his him collected intention promotion. Hill sold ham men made lose case. Views abode law heard jokes too.</p>
+                      <div class="card-review__user">
+                        <h3 class="card-review__user-name">Andrew Chris</h3>
+                        <p class="card-review__user-info">Client from Uganda</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__buttons">
+                  <button type="button" class="slider__button swiper-button-prev">
+                    <span class="slider__button-left"></span>
+                  </button>
+                  <button type="button" class="slider__button swiper-button-next">
+                    <span class="slider__button-right"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section">
+        <div class="statistics">
+          <div class="container">
+            <ul class="statistics__list row justify-content-center justify-content-md-between justify-content-xl-around">
+              <li class="statistics__item col-12 col-md-auto">
+                <h3 class="statistics__item-title title title_size_middle">25,356</h3>
+                <p class="description description_size_large">Projects Done</p>
+              </li>
+              <li class="statistics__item col-12 col-md-auto">
+                <h3 class="statistics__item-title title title_size_middle">1M+</h3>
+                <p class="description description_size_large">Projects Done</p>
+              </li>
+              <li class="statistics__item col-12 col-md-auto">
+                <h3 class="statistics__item-title title title_size_middle">95%</h3>
+                <p class="description description_size_large">Happy Customers</p>
+              </li>
+            </ul>
+            <div class="row justify-content-center">
+              <h2 class="statistics__title title title_size_middle col-9 col-md 12">Want to start a Project With us?</h2>
+            </div>
+            <div class="row justify-content-center">
+              <p class="statistics__description description description_size_large col-12">Warrant present garrets limited cordial in inquiry to. Supported me sweetness behaviour shameless excellent so arranging.</p>
+            </div>
+            <div class="row justify-content-center">
+              <a href="#" class="statistics__button button button_type_primary button_font_medium button_type-text_transparent">
+                <span class="button__text">
+                  Get Started
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section">
+        <div class="form">
+          <div class="container">
+            <div class="row justify-content-center justify-content-md-between align-items-center justify-content-xl-center">
+              <h2 class='form__title title title_size_small col-auto col-xl-12'>Social Media Its Ways Of Our Excellence.</h2>
+              <form class="form-email col-6 col-xl-12" action="#" method="post" enctype="multipart/form-data">
+                <input class="form-email__input js-email-input" type="email" name="email" id="email-input" required placeholder='Enter your Email'/>
+                <label class="form-email__label js-email-label" for="email-input">Enter your Email</label>
+                <button class="form-email__button button button_type_primary" type="submit">
+                  <span class="form-email__button-image"></span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__content row justify-content-md-between justify-content-center align-items-center">
+          <img src="./assets/images/footer/logo.png" alt="logo" class="footer__logo col-auto">
+          <nav class="footer__navigation col-6 col-xxl-4">
+            <ul class="footer__links navigation">
+              <li class="navigation__item">
+                <a href="#" target="_blank" class="navigation__item-link_color_gradient navigation__item-link_color_blue navigation__item-link_size_medium">Home</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" target="_blank" class="navigation__item-link_color_gradient navigation__item-link_color_blue navigation__item-link_size_medium">About Us</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" target="_blank" class="navigation__item-link_color_gradient navigation__item-link_color_blue navigation__item-link_size_medium">Services</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" target="_blank" class="navigation__item-link_color_gradient navigation__item-link_color_blue navigation__item-link_size_medium">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="footer__icons navigation col-auto">
+            <li class="footer__icon">
+              <a href="#" class="footer__icon-link">
+                <svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.42287 20V10.8919H10.3845L10.8248 7.32578H7.42287V5.05432C7.42287 4.02527 7.69922 3.32071 9.12274 3.32071H10.9265V0.141321C10.0489 0.0437405 9.16671 -0.0033761 8.28406 0.000187992C5.66623 0.000187992 3.86889 1.65823 3.86889 4.70204V7.31912H0.926514V10.8852H3.87531V20H7.42287Z" fill="currentColor"/>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__icon">
+              <a href="#" class="footer__icon-link">
+                <svg width="21" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10.903 4.848a5.128 5.128 0 1 0 0 10.255 5.128 5.128 0 0 0 0-10.255zm0 8.458a3.331 3.331 0 1 1 0-6.662 3.331 3.331 0 0 1 0 6.662zM16.234 5.855a1.195 1.195 0 1 0 0-2.39 1.195 1.195 0 0 0 0 2.39z M20.367 3.444a5.106 5.106 0 0 0-2.92-2.918A7.325 7.325 0 0 0 15.023.06C13.955.013 13.617 0 10.909 0S7.854 0 6.795.06a7.268 7.268 0 0 0-2.422.466 5.1 5.1 0 0 0-2.92 2.918A7.302 7.302 0 0 0 .99 5.868C.94 6.935.927 7.273.927 9.982c0 2.708 0 3.053.062 4.114.016.83.173 1.648.464 2.425a5.11 5.11 0 0 0 2.921 2.919 7.3 7.3 0 0 0 2.423.499c1.068.047 1.406.061 4.114.061s3.055 0 4.114-.061a7.334 7.334 0 0 0 2.424-.465 5.116 5.116 0 0 0 2.92-2.92 7.302 7.302 0 0 0 .465-2.423c.047-1.067.062-1.405.062-4.114 0-2.71 0-3.053-.063-4.114a7.297 7.297 0 0 0-.466-2.459zm-1.351 10.57a5.59 5.59 0 0 1-.345 1.872 3.312 3.312 0 0 1-1.898 1.897c-.593.22-1.22.337-1.852.345-1.054.049-1.35.061-4.052.061-2.704 0-2.98 0-4.053-.06a5.498 5.498 0 0 1-1.85-.346 3.31 3.31 0 0 1-1.907-1.897 5.633 5.633 0 0 1-.345-1.85c-.048-1.054-.059-1.351-.059-4.053s0-2.978.06-4.053a5.587 5.587 0 0 1 .344-1.87A3.311 3.311 0 0 1 4.965 2.16a5.556 5.556 0 0 1 1.85-.345c1.055-.047 1.352-.06 4.054-.06s2.98 0 4.052.06a5.5 5.5 0 0 1 1.852.345A3.316 3.316 0 0 1 18.67 4.06c.218.593.335 1.219.345 1.85.048 1.055.06 1.351.06 4.053s0 2.992-.048 4.052h-.012z" fill="currentColor"/>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__icon">
+              <a href="#" class="footer__icon-link">
+                <svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M29.1968 3.14446C29.0324 2.54126 28.7111 1.99117 28.2649 1.54892C27.8187 1.10668 27.2631 0.787707 26.6535 0.623761C24.3931 0.010002 15.3501 1.08429e-05 15.3501 1.08429e-05C15.3501 1.08429e-05 6.30847 -0.00998088 4.04663 0.576659C3.43739 0.748149 2.88297 1.07163 2.43658 1.51604C1.99019 1.96046 1.66683 2.51089 1.49754 3.11448C0.901406 5.34971 0.895632 9.98573 0.895632 9.98573C0.895632 9.98573 0.889858 14.6446 1.48166 16.857C1.81365 18.0802 2.78796 19.0465 4.02642 19.3762C6.30991 19.99 15.3284 20 15.3284 20C15.3284 20 24.3715 20.01 26.6319 19.4248C27.2417 19.2611 27.7978 18.9429 28.2451 18.5015C28.6924 18.0602 29.0155 17.511 29.1824 16.9084C29.78 14.6746 29.7843 10.04 29.7843 10.04C29.7843 10.04 29.8132 5.37968 29.1968 3.14446ZM12.4575 14.2806L12.4647 5.71653L19.9806 10.0057L12.4575 14.2806Z" fill="currentColor"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__line">
+          <img class="footer__img-star" src="./assets/images/footer/star-footer.png" alt="star-footer">
+        </div>
+        <div class="row justify-content-xl-center align-items-center justify-content-md-end">
+          <p class="footer__copyright col-xl-2 col-md-4 col-12">Copyright © Brands.io creative</p>
+        </div>
+      </div>
+    </footer> -->
+  </div>
+
+  <!-- <section class="popup js-popup" data-popup="header-menu">
+    <div class="popup__container container">
+      <div class="row justify-content-between align-items-center">
+        <img class="popup__logo" src="./assets/images/header/logo.svg" alt="brands">
+        <button type="button" class="popup__button-close js-popup-button-close"></button>
+      </div>
+      <div class="row">
+        <ul class="popup__information-list navigation navigation_align_vertical navigation_size_medium navigation_color_gradient ">
+          <li class="navigation__link">
+            <a href="https://dzen.ru/?yredirect=true">Home</a>
+          </li>
+          <li class="navigation__link">
+            <a href="https://dzen.ru/?yredirect=true">About Us</a>
+          </li>
+          <li class="navigation__link">
+            <a href="https://dzen.ru/?yredirect=true">Services</a>
+          </li>
+          <li class="navigation__link">
+            <a href="https://dzen.ru/?yredirect=true">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" class="button button_type_primary button_font_medium button_type-text_transparent">
+              <span class="button__text">
+                Login
+              </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <script type="module" src="./scripts/global.js"></script>
+</body>
+
+</html>

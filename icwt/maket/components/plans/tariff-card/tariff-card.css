@@ -1,0 +1,181 @@
+/* .tariff-card {
+  width: 100%;
+  min-height: 510px;
+  padding: 50px 56px;
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 40px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color ease-in .2s;
+}
+
+.tariff-card:hover {
+  border: 1px solid;
+  border-color: var(--primary-color);
+}
+
+.tariff-card__title {
+  margin-bottom: 40px;
+  font-family: var(--f-family-gilroy-bold);
+  font-size: var(--f-size-30);
+  line-height: var(--f-height-30);
+  color: var(--color-blue);
+}
+
+.tariff-card__subtitle {
+  margin-bottom: 40px;
+  font-family: var(--f-family-gilroy-bold);
+  font-size: var(--f-size-52);
+  line-height: var(--f-height-52);
+  background-image: var(--primary-color-gradient-1);
+  background-size: 200% 100%;
+  background-position: right;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  transition: background-position ease-in .2s;
+}
+
+.tariff-card:hover .tariff-card__subtitle {
+  background-position: left;
+}
+
+.tariff-card__button {
+  max-width: 180px;
+}
+
+.tariff-card__list {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+
+.tariff-card__item {
+  display: flex;
+  justify-content: start;
+  font-weight: var(--f-weight-normal);
+  font-size: var(--f-size-16);
+  line-height: var(--f-height-16);
+  color: var(--color-blue);
+  white-space: nowrap;
+}
+
+.tariff-card__flag-container {
+  margin-right: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tariff-card__flag-container {
+  color: var(--color-blue);
+  transition: color ease-in .2s; */
+  /* тут .3с равны transition .4с у кнопки. Разница объясняется тем, что кнопка уже частично окрашена в фиолетовый цвет,
+  т.е. фактическая полнаязаливка кнопки происходит не за .4с, а на 25% раньше, т.е. за .3с*/
+/* }
+
+.tariff-card:hover .tariff-card__flag-container {
+  color: var(--primary-color);
+} */
+
+/*****************************************************************************************/
+/************************* стили для кнопки type primary-color ***************************/
+/*****************************************************************************************/
+
+/* .tariff-card_primary-color {
+  background-color: var(--color-blue);
+}
+
+.tariff-card_primary-color:hover {
+  border-color: transparent;
+}
+
+.tariff-card_primary-color .tariff-card__title {
+  color: var(--color-white);
+}
+
+.tariff-card_primary-color .tariff-card__subtitle {
+  background-image: var(--primary-color-gradient-2);
+  background-size: 300% 100%;
+  background-position: right;
+}
+
+.tariff-card_primary-color:hover .tariff-card__subtitle {
+  background-position: left;
+}
+
+.tariff-card_primary-color .tariff-card__item {
+  color: var(--color-white);
+}
+
+.tariff-card_primary-color .tariff-card__flag-container,
+.tariff-card_primary-color:hover .tariff-card__flag-container {
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 1279px) {
+  .tariff-card {
+    min-height: 420px;
+    padding: 2px;
+    justify-content: start;
+    align-items: flex-start;
+    box-shadow: none;
+  }
+
+  .tariff-card:hover {
+    border-color: transparent;
+  }
+
+  .tariff-card_primary-color {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .tariff-card__title,
+  .tariff-card__subtitle {
+    margin-bottom: 20px;
+    font-size: var(--f-size-24);
+    line-height: var(--f-height-24);
+  }
+
+  .tariff-card__list {
+    margin-bottom: 20px;
+  }
+
+  .tariff-card__item {
+    display: flex;
+    white-space: normal;
+  }
+
+  .tariff-card__button {
+    max-width: 146px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tariff-card {
+    min-height: 400px;
+    padding: 50px 22px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.05);
+  }
+
+  .tariff-card__item {
+    display: flex;
+    white-space: nowrap;
+  }
+} */

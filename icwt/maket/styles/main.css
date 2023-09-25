@@ -1,0 +1,23 @@
+.layout {
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.main__section:not(:last-of-type) {
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1279px) {
+  .layout {
+    padding-top: 30px;
+  }
+
+  .main__section:not(:last-of-type) {
+    margin-bottom: 80px;
+  }
+}

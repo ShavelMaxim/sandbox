@@ -1,0 +1,132 @@
+.button {
+  width: 275px;
+  height: 70px;
+  align-items: center;
+  padding: 26px 57px;
+  border-radius: 50px;
+  color: var(--color-white);
+  background: var(--color-red);
+  border: none;
+}
+
+.button:hover {
+  background: var(--color-dark-red);
+}
+
+
+/* .button {
+  min-height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+} */
+
+/********************************************************************************/
+/*************************** стили шрифтов кнопок *******************************/
+/********************************************************************************/
+
+/* .button_font_small .button__text {
+  font-size: var(--f-size-14);
+  line-height: var(--f-height-14);
+}
+
+.button_font_medium .button__text {
+  font-size: var(--f-size-15);
+  line-height: var(--f-height-18);
+} */
+
+/********************************************************************************/
+/******************* стили кнопки с заливкой градиентом  ************************/
+/********************************************************************************/
+
+/* Бэкграунд кнопки это градиент с шириной х2 от размера самой кнопки. */
+/* Чтобы градиент отображался только внутри кнопки, установлено свойство overflow: hidden. */
+/* По ховеру на кнопку градиент перемещается по оси х, тем самым визуально меняя бэкграунд кнопки. */
+
+/* .button_type_primary {
+  position: relative;
+  overflow: hidden;
+}
+
+.button_type_primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200%;
+  height: 100%;
+  background-image: var(--primary-color-gradient-1);
+  transition: transform ease-in .2s;
+  z-index: 1;
+}
+
+.button_type_primary:hover::before {
+  transform: translateX(50%);
+}
+
+.button_type-text_transparent .button__text {
+  color: var(--color-btn-white);
+  z-index: 1;
+} */
+
+/********************************************************************************/
+/********* стили прозрачной кнопки с бордером и текстом цвета градиента *********/
+/********************************************************************************/
+
+/* У данной кнопки текст и бордер работают независимо друг от друга. */
+/* Все стили для управления цветом заданы через before */
+
+/* тут описаны стили бордера прозрачной кнопки */
+/*как работает бордер?*/
+
+/*псевдоклассом after фиксируем блок по ширине кнопки*/
+/*задаём бэкграунд градиент с шириной х2 размера кнопки, позиционируем на left*/
+/*по ховеру меняем позицию бэкграунда на right*/
+
+/* .button_type_transparent {
+  position: relative;
+}
+
+.button_type_transparent::before {
+  content: "";
+  position: absolute;
+  padding: 1px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-image: var(--primary-color-gradient-1);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  transition: background-position ease-in .2s;
+  background-size: 200% 100%;
+  background-position: right;
+} */
+
+/* .button_type_transparent:hover::before {
+  background-position: left;
+} */
+
+/* тут описаны стили текста прозрачной кнопки */
+/* как работает текст? */
+
+/* Бэкграунд текста это градиент с шириной х2 от размера самого текста. */
+/* По ховеру на кнопку градиент перемещается по оси х, тем самым визуально меняя цвет текста. */
+
+/* .button_text_primary .button__text {
+  background-image: var(--primary-color-gradient-1);
+  background-size: 200% 100%;
+  background-position: right;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position ease-in .2s;
+}
+
+.button:hover .button__text {
+  background-position: left;
+} */

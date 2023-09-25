@@ -1,0 +1,21 @@
+.steps {
+  margin-bottom: 80px;
+}
+
+.steps__title {
+margin-right: 158px;
+margin-bottom: 68px;
+}
+
+.steps__step {
+  margin-bottom: 40px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.steps__paragraph {
+  width: 78px;
+  margin-right: 20px;
+}
